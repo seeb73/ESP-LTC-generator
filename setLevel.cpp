@@ -1,5 +1,12 @@
-// Do testów zoptymalizowana wersja.
-// An optimised version for testing.
+/*
+ @version 0.0.1
+ @author Sebastian Pachla
+ @package esp32 LTC timecode generator
+ Do testów zoptymalizowana wersja.
+ An optimised version for testing.
+ Wersja do testów. Oryginalny kod po kompilacji zajmował dużo miejsca w pamięci IRAM, co dość mocno ograniczało funkcjonalność modułu.
+ Test version. The original code took up a lot of space in IRAM after compilation, which limited the functionality quite a bit.
+*/
 
 void IRAM_ATTR setLevel(void)
 {
